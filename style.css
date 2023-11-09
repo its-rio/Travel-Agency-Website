@@ -24,6 +24,13 @@ header nav{
     align-items: center;
     justify-content: space-between;
 }
+header nav h4{
+    color: rgb(111, 11, 203);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
 header nav ul{
     list-style: none;
     display: flex;
@@ -66,7 +73,7 @@ header .content::before{
     width: 100%;
     height: 80%;
     /* border: 1px solid black; */
-    background: url(./images/boat.jpg) no-repeat center center/cover;
+    background: url(./images/boat1.jpg) no-repeat center center/cover;
     border-radius: 10px;
     z-index: -1;
 }
@@ -91,6 +98,7 @@ header .content .cont p{
 }
 header .content .cont button{
     margin-top: 20px;
+    margin-bottom: 18px;
     padding: 10px 20px;
     border-radius: 20px;
     border: 1px solid black;
@@ -329,7 +337,7 @@ header .trip_bx .travel_bx .cards .card .btn_city h5 span{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgb(255, 255, 255, .1);
+    background: rgb(95 95 95 / 10%);
     backdrop-filter: blur(5px);  
     z-index: -1; 
 }
